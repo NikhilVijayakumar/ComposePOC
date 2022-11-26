@@ -3,21 +3,24 @@ package com.nikhil.compose
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.material.CircularProgressIndicator
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
-import com.nikhil.compose.ui.components.*
+import com.nikhil.compose.ui.example.*
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            MainContent()
+            //MainContent()
+          MdcExample()
         }
     }
-}
 
+
+}
+/*private fun MdcPreview() {
+    TODO("Not yet implemented")
+}*/
 @Preview(showBackground = true)
 @Composable
 fun MainContent() {
@@ -46,7 +49,7 @@ fun MainContent() {
     //EffectHandlerExample()
    // AnimationExample()
    // CircularProgressExample(0.8f,300)
-    MusicKnobExample()
+    //MusicKnobExample()
 }
 
 

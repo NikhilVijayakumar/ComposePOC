@@ -1,17 +1,11 @@
-package com.nikhil.compose.ui.components
+package com.nikhil.compose.ui.example
 
-import androidx.compose.foundation.layout.*
-import androidx.compose.material.*
 import androidx.compose.runtime.*
-import androidx.compose.ui.Alignment
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.unit.dp
-import kotlinx.coroutines.launch
 
 
 @Composable
 fun SnackbarExample() {
-    val scaffoldState = rememberScaffoldState()
+   /* val scaffoldState = rememberScaffoldState()
     val scope = rememberCoroutineScope()
     var  textfieldState by remember {
         mutableStateOf("")
@@ -46,6 +40,6 @@ fun SnackbarExample() {
             }
         }
 
-    }
+    }*/
 
 }

@@ -1,22 +1,19 @@
-package com.nikhil.compose.ui.components
+package com.nikhil.compose.ui.example
 
-import androidx.compose.material.Button
-import androidx.compose.material.Text
-import androidx.compose.material.rememberScaffoldState
+
+import androidx.compose.material3.Button
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Text
 import androidx.compose.runtime.*
 import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.flow.collect
-import kotlinx.coroutines.flow.distinctUntilChanged
-import kotlinx.coroutines.flow.flow
-import kotlinx.coroutines.flow.mapNotNull
 import kotlinx.coroutines.launch
 
 var effect = 0
 
-
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun EffectHandlerExample() {
     //LaunchedEffectExample()
@@ -26,10 +23,10 @@ fun EffectHandlerExample() {
    // SideEffectExample()
   //  produceStateExample()
   //  DerivedStateDemo()
-    SnapshotFlowExample()
+    //SnapshotFlowExample()
 }
 
-@Composable
+/*@Composable
 fun SnapshotFlowExample() {
     val  scaffoldState = rememberScaffoldState()
     LaunchedEffect(key1 = scaffoldState ){
@@ -43,7 +40,7 @@ fun SnapshotFlowExample() {
             }
     }
 
-}
+}*/
 
 @Composable
 fun DerivedStateDemo() {
