@@ -1,4 +1,4 @@
-package com.nikhil.compose.ui.example.mdc
+package com.nikhil.compose.ui.example.mdc.textfield
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
