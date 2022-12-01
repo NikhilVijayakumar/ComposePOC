@@ -16,7 +16,7 @@ import androidx.compose.ui.unit.dp
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalLayoutApi::class)
 @Preview(showBackground = true)
 @Composable
-fun ScaffoldExample() {
+fun ScaffoldTopAppBarExample() {
     val colors = listOf(
         Color(0xFFffd7d7.toInt()),
         Color(0xFFffe9d6.toInt()),

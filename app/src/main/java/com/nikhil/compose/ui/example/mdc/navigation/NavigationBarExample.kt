@@ -1,4 +1,4 @@
-package com.nikhil.compose.ui.example.mdc
+package com.nikhil.compose.ui.example.mdc.navigation
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Favorite

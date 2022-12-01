@@ -1,4 +1,4 @@
-package com.nikhil.compose.ui.example.mdc
+package com.nikhil.compose.ui.example.mdc.textfield
 
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.runtime.Composable
@@ -19,12 +19,12 @@ import androidx.compose.ui.text.input.TextFieldValue
 @Composable
 fun TextFieldExample() {
     var text by rememberSaveable(stateSaver = TextFieldValue.Saver) {
-        mutableStateOf(TextFieldValue("example", TextRange(0, 7)))
+        mutableStateOf(TextFieldValue("John Doe", TextRange(0, 9)))
     }
 
     TextField(
         value = text,
         onValueChange = { text = it },
-        label = { Text("Label") }
+        label = { Text("Name") }
     )
 }
