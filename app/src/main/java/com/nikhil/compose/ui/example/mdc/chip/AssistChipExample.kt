@@ -1,4 +1,4 @@
-package com.nikhil.compose.ui.example.mdc
+package com.nikhil.compose.ui.example.mdc.chip
 
 import androidx.compose.foundation.layout.size
 import androidx.compose.material.icons.Icons

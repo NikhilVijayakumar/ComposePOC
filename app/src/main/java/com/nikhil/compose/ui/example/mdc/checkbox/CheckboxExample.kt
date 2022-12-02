@@ -1,4 +1,4 @@
-package com.nikhil.compose.ui.example.mdc
+package com.nikhil.compose.ui.example.mdc.checkbox
 
 import androidx.compose.material3.Checkbox
 import androidx.compose.runtime.Composable

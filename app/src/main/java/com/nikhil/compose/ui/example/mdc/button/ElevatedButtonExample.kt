@@ -1,4 +1,4 @@
-package com.nikhil.compose.ui.example.mdc
+package com.nikhil.compose.ui.example.mdc.button
 
 import androidx.compose.runtime.Composable
 import androidx.compose.material3.ElevatedButton

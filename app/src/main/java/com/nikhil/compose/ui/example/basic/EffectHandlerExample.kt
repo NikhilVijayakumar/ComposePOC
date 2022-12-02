@@ -1,4 +1,4 @@
-package com.nikhil.compose.ui.example
+package com.nikhil.compose.ui.example.basic
 
 
 import androidx.compose.material3.Button

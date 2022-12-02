@@ -1,4 +1,4 @@
-package com.nikhil.compose.ui.example.mdc
+package com.nikhil.compose.ui.example.mdc.loaders
 
 import androidx.compose.runtime.Composable
 import androidx.compose.foundation.layout.Column

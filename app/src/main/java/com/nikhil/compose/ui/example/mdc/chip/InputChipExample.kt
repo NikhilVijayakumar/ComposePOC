@@ -1,4 +1,4 @@
-package com.nikhil.compose.ui.example.mdc
+package com.nikhil.compose.ui.example.mdc.chip
 
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.InputChip

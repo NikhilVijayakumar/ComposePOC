@@ -1,4 +1,4 @@
-package com.nikhil.compose.ui.example
+package com.nikhil.compose.ui.example.basic
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding

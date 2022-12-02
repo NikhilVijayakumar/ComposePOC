@@ -1,4 +1,4 @@
-package com.nikhil.compose.ui.example.mdc
+package com.nikhil.compose.ui.example.mdc.switch1
 
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.foundation.layout.size

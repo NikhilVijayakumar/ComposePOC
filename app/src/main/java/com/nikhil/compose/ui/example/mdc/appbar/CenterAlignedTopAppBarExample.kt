@@ -1,4 +1,4 @@
-package com.nikhil.compose.ui.example.mdc
+package com.nikhil.compose.ui.example.mdc.appbar
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.runtime.Composable

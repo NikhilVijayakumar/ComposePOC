@@ -1,4 +1,4 @@
-package com.nikhil.compose.ui.example.mdc
+package com.nikhil.compose.ui.example.mdc.dropdown
 
 import androidx.compose.material3.*
 import androidx.compose.ui.tooling.preview.Preview

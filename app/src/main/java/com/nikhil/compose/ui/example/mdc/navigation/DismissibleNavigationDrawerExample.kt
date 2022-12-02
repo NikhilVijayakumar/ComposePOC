@@ -1,4 +1,4 @@
-package com.nikhil.compose.ui.example.mdc
+package com.nikhil.compose.ui.example.mdc.navigation
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.layout.Column

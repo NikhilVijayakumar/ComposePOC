@@ -1,4 +1,4 @@
-package com.nikhil.compose.ui.example.mdc
+package com.nikhil.compose.ui.example.mdc.scaffold
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*

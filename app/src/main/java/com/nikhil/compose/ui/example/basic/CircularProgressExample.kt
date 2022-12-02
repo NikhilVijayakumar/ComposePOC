@@ -1,4 +1,4 @@
-package com.nikhil.compose.ui.example
+package com.nikhil.compose.ui.example.basic
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
