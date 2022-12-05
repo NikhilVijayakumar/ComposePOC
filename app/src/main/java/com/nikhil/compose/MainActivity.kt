@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.runtime.Composable
 import com.nikhil.compose.ui.codelab.basic.CodeLabBasic
+import com.nikhil.compose.ui.codelab.layout.CodeLabBasicLayout
 import com.nikhil.compose.ui.theme.AppTheme
 
 class MainActivity : ComponentActivity() {
@@ -24,7 +25,8 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun CodeLabContent() {
-    CodeLabBasic()
+//    CodeLabBasic()
+    CodeLabBasicLayout()
 }
 
 
