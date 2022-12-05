@@ -31,4 +31,10 @@
     <string name="placeholder_search">Search</string>
     <!--Basic layout codelab end-->
 
+    <!-- State Into Lab -->
+    <string name="tip_heading">Calculate Tip</string>
+    <string name="tip_placeholder">Cost of service</string>
+    <string name="tip_amount">Tip amount:$ %1$s</string>
+    <!-- State Into Lab end -->
+
 </resources>
