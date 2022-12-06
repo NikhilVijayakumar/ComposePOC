@@ -37,4 +37,10 @@
     <string name="tip_amount">Tip amount:$ %1$s</string>
     <!-- State Into Lab end -->
 
+    <!-- State Core Lab -->
+    <string name="water_message">You\'ve had %1$d glasses</string>
+    <string name="water_button">Add one</string>
+    <string name="task_close">Close</string>
+
+
 </resources>
