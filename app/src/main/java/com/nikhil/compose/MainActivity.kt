@@ -8,6 +8,7 @@ import com.nikhil.compose.ui.codelab.basic.CodeLabBasic
 import com.nikhil.compose.ui.codelab.layout.CodeLabBasicLayout
 import com.nikhil.compose.ui.codelab.state.StateCore
 import com.nikhil.compose.ui.codelab.state.StateIntro
+import com.nikhil.compose.ui.codelab.theme.CodeLabTheme
 import com.nikhil.compose.ui.theme.AppTheme
 
 class MainActivity : ComponentActivity() {
@@ -30,7 +31,8 @@ fun CodeLabContent() {
 //    CodeLabBasic()
 //    CodeLabBasicLayout()
 //    StateIntro()
-    StateCore()
+//    StateCore()
+    CodeLabTheme()
 }
 
 
